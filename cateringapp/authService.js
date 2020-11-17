@@ -1,7 +1,7 @@
 class AuthService {
 
     // registering user
-    reigster() {}
+    register() {}
 
     // login function
     login(name, pass) {
