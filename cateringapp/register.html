@@ -39,9 +39,6 @@ background-attachment: fixed;">
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" id="password" required>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
     <div class="clearfix">
         <button type="submit" class="signupbtn">Sign Up</button>
       </div>
@@ -50,16 +47,16 @@ background-attachment: fixed;">
 </form>
 </main>
 <script>
-    $("#header").load(".vscode/components/_header.html");
+    $("#header").load("components/_header.html");
      function signupbtn()
        {
-           event.preventDefault();
-           var Name=document.getElementById("username").value;
-           var email=document.getElementById("email").value;
-           var password=document.getElementById("password").value;
-             var userObj={"username":Name, "email":email, "password":password};
-      console.log(userObj);
-       window.location.href="login.html"; 
+            event.preventDefault();
+            var Name=document.getElementById("username").value;
+            var email=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+            var userObj={"username":Name, "email":email, "password":password};
+            console.log(userObj);
+            window.location.href="login.html"; 
        } 
        
          
