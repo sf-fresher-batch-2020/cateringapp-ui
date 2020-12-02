@@ -125,7 +125,7 @@
                 <label for="plates">Number of plates</label>
                 <input type="number" id="plates">
             </div>
-            <button class="btn btn-sm btn-primary" type="submit">go to cart</button>
+            <button class="btn btn-sm btn-primary" type="submit">go to order</button>
         </form>
     </div>
 
@@ -162,6 +162,7 @@ console.log(selected);
             var details = { "Items": selected, "Plates": noPlates, "Ocassion": ocassion, "Mealtime": mealtime };
             console.log(details);
             localStorage.setItem("ORDERS", JSON.stringify(details));
+            alert("order placed");
             /*  for (var item of checkboxes) {
                   itemsSelected.push(item.value);
               }

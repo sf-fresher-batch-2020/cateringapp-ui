@@ -1,0 +1,29 @@
+
+h1
+{
+    color : rgb(8, 57, 85);
+    text-align : center;
+    font-style: oblique;
+    font-family: cursive;
+    width:100px;
+    padding:-250x;
+}
+form {
+    width: 100px;
+    margin: -100px auto;
+    font-family: cursive;
+    padding: -250px;
+
+  }
+  .signupbtn{
+      padding: 0 100px;
+      margin: 0 0;
+      background-color: lightgreen;
+  }
+
+  
+  .container {
+    padding: 2px;
+  }
+
+  
